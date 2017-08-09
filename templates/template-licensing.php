@@ -3,7 +3,7 @@ Template Name: Licensing
 */ ?>
 
 <?php get_header(); ?>
-	
+
 	<div class="container">
 
 		<main id="content" class="home">
@@ -44,11 +44,11 @@ Template Name: Licensing
 
 						<div id="slideCount" data-total-slides="3"></div>
 
-						<?php 
-							get_template_part( 'template-parts/forms/contact' ); 
-							get_template_part( 'template-parts/forms/resources' ); 
-							get_template_part( 'template-parts/forms/departments' ); 
-							get_template_part( 'template-parts/forms/students' ); 
+						<?php
+							get_template_part( 'template-parts/forms/contact' );
+							get_template_part( 'template-parts/forms/resources' );
+							get_template_part( 'template-parts/forms/departments' );
+							get_template_part( 'template-parts/forms/students' );
 						?>
 
 					</div>

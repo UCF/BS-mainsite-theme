@@ -1,4 +1,4 @@
-<?php 
+<?php
 	$partners = get_field( 'partners' );
 
 	if ( !empty( $partners ) ) { ?>
@@ -8,7 +8,7 @@
 			<div class="container">
 
 				<div class="inner-wrap-container">
-					
+
 					<div class="top-wrap formatted">
 
 						<h1><?php the_field( 'partners_title' ); ?></h1>
@@ -25,7 +25,7 @@
 
 					</div>
 
-					<?php 
+					<?php
 						$totalSlides = ceil( count( $partners ) / 2 );
 						$leftSlides = array();
 						$rightSlides = array();
@@ -54,7 +54,7 @@
 										<img alt="UCF Partner" src="<?php echo $slide['image']; ?>" />
 
 										<?php echo $slide['content']; ?>
-										
+
 										<?php if ( $slide['link'] && $slide['link_text'] ) { ?>
 											<a href="<?php echo $slide['link']; ?>" class="go-link"><?php echo $slide['link_text']; ?></a>
 										<?php } ?>
@@ -74,7 +74,7 @@
 										<img alt="UCF Partner" src="<?php echo $slide['image']; ?>" />
 
 										<?php echo $slide['content']; ?>
-										
+
 										<?php if ( $slide['link'] && $slide['link_text'] ) { ?>
 											<a href="<?php echo $slide['link']; ?>" class="go-link"><?php echo $slide['link_text']; ?></a>
 										<?php } ?>

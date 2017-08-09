@@ -4,11 +4,11 @@
 	if ( !empty( $faqList ) ) { ?>
 
 		<section class="off-white-section formatted">
-			
+
 			<div class="inner-wrap-container">
-				
+
 				<div class="inner-faq-list-wrap">
-					
+
 					<?php if ( !get_field( 'faqs_title' ) ) { ?>
 						<h3>Solicitation FAQs</h3>
 					<?php } else { ?>
@@ -42,19 +42,19 @@
 										<div class="inner-wrap formatted5 formatted3">
 											<?php echo $faqPost['content']; ?>
 										</div>
-										
+
 									</li>
 
 								<?php } ?>
 
 							</ul>
 
-						<?php } 
+						<?php }
 
 							if ( !empty( $rightColumn ) ) { ?>
-					
+
 								<ul class="faq-list right-side pull-left">
-									
+
 									<?php foreach ( $rightColumn as $faqPost ) { ?>
 
 										<li>
@@ -64,7 +64,7 @@
 											<div class="inner-wrap formatted5 formatted3">
 												<?php echo $faqPost['content']; ?>
 											</div>
-											
+
 										</li>
 
 									<?php } ?>
@@ -81,5 +81,5 @@
 
 		</section>
 
-	<?php } 
+	<?php }
 ?>

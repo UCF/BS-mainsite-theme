@@ -15,15 +15,15 @@
 	<?php } else { ?>
 		<div class="inner-wrap largest">
 	<?php } ?>
-		
+
 		<?php if ( get_field( 'cta_title' ) ) { ?>
 			<h1><?php the_field( 'cta_title' ); ?></h1>
 		<?php } ?>
-		
+
 		<?php if ( get_field( 'cta_description' ) ) { ?>
 			<?php the_field( 'cta_description' ); ?>
 		<?php } ?>
-		
+
 		<?php if ( is_page_template( 'templates/template-home.php' ) ) { ?>
 			<a href="<?php the_field( 'cta_link' ); ?>" class="white-btn btn w-arrow"><?php the_field( 'cta_link_text' ); ?></a>
 		<?php } else { ?>

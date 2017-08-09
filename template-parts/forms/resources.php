@@ -3,14 +3,14 @@
 	<div class="float-container">
 
 		<div class="info-block formatted3">
-			
+
 			<?php if ( get_field( 'resources_description' ) ) { ?>
 
 				<div class="top-wrap">
 
 					<?php the_field( 'resources_description' ); ?>
-					
-				</div>	
+
+				</div>
 
 			<?php } ?>
 
@@ -19,8 +19,8 @@
 				<?php if ( get_field( 'resources_pdf_name' ) && get_field( 'resources_pdf_document' ) || get_field( 'resources_outbound_link' ) ) { ?>
 
 					<div class="document-wrap">
-						
-						<?php 
+
+						<?php
 							if ( get_field( 'resources_pdf_name' ) && get_field( 'resources_pdf_document' ) ) {
 								$download = get_field( 'resources_pdf_document' ); ?>
 								<div class="document-file"><?php the_field( 'resources_pdf_name' ); ?></div>
@@ -29,7 +29,7 @@
 						?>
 
 						<div class="clear"></div>
-						
+
 						<?php if ( get_field( 'resources_outbound_link' ) && get_field( 'resources_outbound_link_title' ) ) { ?>
 							<a href="<?php the_field( 'resources_outbound_link' ); ?>" class="external-link" target="_blank"><?php echo get_field( 'resources_outbound_link_title' ); ?></a>
 						<?php } ?>
@@ -37,7 +37,7 @@
 					</div>
 
 				<?php } ?>
-				
+
 				<?php if ( get_field( 'resources_additional_content' ) ) { ?>
 					<?php the_field( 'resources_additional_content' ); ?>
 				<?php } ?>
@@ -49,7 +49,7 @@
 		<?php /* <div class="info-block formatted4 right-side pull-right">
 
 			<h2>Design Submission Form</h2>
-			
+
 			<div class="upper-description">
 				<p>This form is intended for use by student organizations, departments, schools, colleges and entities related to UCF to submit <strong>PIC good</strong> designs. Designs for sale must be submitted via iCLC per your licensing agreement.</p>
 			</div>
