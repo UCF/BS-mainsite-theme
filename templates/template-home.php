@@ -3,7 +3,7 @@ Template Name: Home
 */ ?>
 
 <?php get_header(); ?>
-	
+
 	<div class="container">
 
 		<main id="content" class="home">
@@ -13,9 +13,9 @@ Template Name: Home
 				<div class="container">
 
 					<div class="inner-wrap-container">
-						
+
 						<div class="top-wrap formatted">
-								
+
 							<h1><?php the_field( 'slide_section_title' ); ?></h1>
 
 							<div class="divider grey-divider"></div>
@@ -29,11 +29,11 @@ Template Name: Home
 							</div>
 
 						</div>
-						
+
 						<?php $slides = get_field( 'slides' ); $totalSlides = count( $slides ); ?>
 
 						<ul class="slider-line">
-							
+
 							<?php foreach ( $slides as $key => $slide ) { ?>
 
 								<li class="pull-left<?php if ( $key == 0 ) { ?> active<?php } ?>">
@@ -86,7 +86,7 @@ Template Name: Home
 
 			<?php get_template_part( 'template-parts/cta-section' ); ?>
 			<?php get_template_part( 'template-parts/partners' ); ?>
-	
+
 		</main>
 
 	</div>

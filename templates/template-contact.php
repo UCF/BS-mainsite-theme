@@ -3,11 +3,11 @@ Template Name: Contact
 */ ?>
 
 <?php get_header(); ?>
-	
+
 	<div class="container">
 
 		<main id="content" class="contact no-padding-top">
-			
+
 			<?php get_template_part( 'template-parts/cta-section' ); ?>
 
 			<section class="slider-section has-padding-2">
@@ -15,7 +15,7 @@ Template Name: Contact
 				<div class="container">
 
 					<div class="inner-wrap-container">
-						
+
 						<div class="top-wrap formatted pull-right">
 
 							<div class="pagination no-margin-top">
@@ -42,17 +42,17 @@ Template Name: Contact
 								<a href="#" data-wrap="slide-2" data-slide="2">Donation Requests</a>
 							</li>
 
-							<li class="pull-left">
+							<!--<li class="pull-left">
 								<a href="#" data-wrap="slide-3" data-slide="3">Business Inquiries</a>
-							</li>
-							
-							<li class="pull-left">
-								<a href="#" data-wrap="slide-4" data-slide="4">Student Union Work Order Request</a>
-							</li>
+							</li>-->
 
 							<li class="pull-left">
-								<a href="#" data-wrap="slide-5" data-slide="5">IT/Marketing Ticket</a>
+								<a href="#" data-wrap="slide-4" data-slide="4">Student Union Work Order</a>
 							</li>
+
+							<!--<li class="pull-left">
+								<a href="#" data-wrap="slide-5" data-slide="5">IT/Marketing Ticket</a>
+							</li>-->
 
 							<li class="pull-left">
 								<a href="#" data-wrap="slide-6" data-slide="6">Coke Donation</a>
@@ -68,23 +68,23 @@ Template Name: Contact
 
 						<div id="slideCount" data-total-slides="7"></div>
 
-						<?php 
-							get_template_part( 'template-parts/contact-content-wraps/market' ); 
+						<?php
+							get_template_part( 'template-parts/contact-content-wraps/market' );
 							get_template_part( 'template-parts/contact-content-wraps/general' );
 							get_template_part( 'template-parts/contact-content-wraps/vending' );
 							get_template_part( 'template-parts/contact-content-wraps/donation' );
-							get_template_part( 'template-parts/contact-content-wraps/business' ); 
-							get_template_part( 'template-parts/contact-content-wraps/students' ); 
-							get_template_part( 'template-parts/contact-content-wraps/coke-donation' ); 
-							get_template_part( 'template-parts/contact-content-wraps/dining-membership' ); 
+							get_template_part( 'template-parts/contact-content-wraps/business' );
+							get_template_part( 'template-parts/contact-content-wraps/students' );
+							get_template_part( 'template-parts/contact-content-wraps/coke-donation' );
+							get_template_part( 'template-parts/contact-content-wraps/dining-membership' );
 						?>
-			
+
 					</div>
 
 				</div>
 
 			</section>
-			
+
 		</main>
 
 	</div>
