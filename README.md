@@ -8,4 +8,4 @@ This theme is built around Advanced Custom Fields.
 - The Dev branch is automatically deployed to the Copiers Dev environment
 - The Master branch is automatically deployed to the QA environment
 - Deployment to production is done manually via Jenkins using release versions
-- **Be sure to update the style.css with the version on new releases. Use Semver**
+- **Be sure to update the style.css with the version on new releases.**
