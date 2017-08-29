@@ -14,8 +14,8 @@ Template Name: Contact
 
 				<div class="container">
 
-					<div class="notice"><strong>Please use the dining membership form in the tabs below to request a cancellation.</strong></div>
 					<div class="inner-wrap-container">
+						<div class="notice"><strong>Please use the dining membership form in the tabs below to request a cancellation.</strong></div>
 
 						<div class="top-wrap formatted pull-right">
 
