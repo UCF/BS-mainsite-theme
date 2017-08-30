@@ -43,17 +43,9 @@ Template Name: Contact
 								<a href="#" data-wrap="slide-2" data-slide="2">Donation Requests</a>
 							</li>
 
-							<!--<li class="pull-left">
-								<a href="#" data-wrap="slide-3" data-slide="3">Business Inquiries</a>
-							</li>-->
-
 							<li class="pull-left">
 								<a href="#" data-wrap="slide-4" data-slide="4">Student Union Work Order</a>
 							</li>
-
-							<!--<li class="pull-left">
-								<a href="#" data-wrap="slide-5" data-slide="5">IT/Marketing Ticket</a>
-							</li>-->
 
 							<li class="pull-left">
 								<a href="#" data-wrap="slide-6" data-slide="6">Coke Donation</a>
@@ -70,14 +62,12 @@ Template Name: Contact
 						<div id="slideCount" data-total-slides="7"></div>
 
 						<?php
-							get_template_part( 'template-parts/contact-content-wraps/market' );
+							get_template_part( 'template-parts/contact-content-wraps/dining-membership' );
 							get_template_part( 'template-parts/contact-content-wraps/general' );
 							get_template_part( 'template-parts/contact-content-wraps/vending' );
 							get_template_part( 'template-parts/contact-content-wraps/donation' );
-							get_template_part( 'template-parts/contact-content-wraps/business' );
 							get_template_part( 'template-parts/contact-content-wraps/students' );
 							get_template_part( 'template-parts/contact-content-wraps/coke-donation' );
-							get_template_part( 'template-parts/contact-content-wraps/dining-membership' );
 						?>
 
 					</div>
