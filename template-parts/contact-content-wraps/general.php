@@ -1,4 +1,4 @@
-<div class="content-wrap active" data-wrap="slide-7" data-slide="7">
+<div class="content-wrap active" data-wrap="slide-0" data-slide="0">
 							
 	<div class="info-block formatted2">
 
