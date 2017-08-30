@@ -32,11 +32,11 @@ Template Name: Contact
 						<ul class="slider-line">
 
 							<li class="pull-left">
-								<a href="#" data-wrap="slide-7" data-slide="7">Dining Membership Cancellation</a>
+								<a href="#" data-wrap="slide-0" data-slide="0">Dining Membership Cancellation</a>
 							</li>
 
 							<li class="pull-left active">
-								<a href="#" data-wrap="slide-0" data-slide="0">General</a>
+								<a href="#" data-wrap="slide-7" data-slide="7">General</a>
 							</li>
 
 							<li class="pull-left">
