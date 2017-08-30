@@ -31,6 +31,10 @@ Template Name: Contact
 
 						<ul class="slider-line">
 
+							<li class="pull-left">
+								<a href="#" data-wrap="slide-7" data-slide="7">Dining Membership Cancellation</a>
+							</li>
+
 							<li class="pull-left active">
 								<a href="#" data-wrap="slide-0" data-slide="0">General</a>
 							</li>
@@ -57,10 +61,6 @@ Template Name: Contact
 
 							<li class="pull-left">
 								<a href="#" data-wrap="slide-6" data-slide="6">Coke Donation</a>
-							</li>
-
-							<li class="pull-left">
-								<a href="#" data-wrap="slide-7" data-slide="7">Dining Membership Cancellation</a>
 							</li>
 
 						</ul>
