@@ -135,8 +135,37 @@
 
 			</section>
 
-		<?php } ?>
+		<?php } else if ( is_page_template( 'templates/template-contact.php' ) ) { ?>
+
+			<section class="map-box">
+
+				<div id="map"></div>
+
+				<div class="phone-card">
+
+					<div class="outer">
+
+						<div class="inner">
+
+							<div class="sub-text">
+								<p>12479 Research Pkwy Ste 600, Orlando, FL 32826</p>
+								<p>For immediate assistance, please call</p>
+							</div>
+
+							<a href="tel:4078232624" class="telephono">(407) 823-2624</a>
+
+						</div>
+
+					</div>
+
+				</div>
+
+				<div class="fence-border green"></div>
+
+			</section>
+	<?php } ?>
 
 	</div>
+	
 
 </header>
