@@ -62,9 +62,9 @@ Template Name: Catering
 								<a href="#" data-wrap="slide-0" data-slide="0">On-Campus Partners</a>
 							</li>
 
-							<li class="pull-left">
+							<!--<li class="pull-left">
 								<a href="#" data-wrap="slide-1" data-slide="1">Off-Campus Caterers</a>
-							</li>
+							</li>-->
 
 						</ul>
 
@@ -124,7 +124,7 @@ Template Name: Catering
 
 						</div>
 
-						<div class="content-wrap" style="display: none;" data-wrap="slide-1" data-slide="1">
+						<!--div class="content-wrap" style="display: none;" data-wrap="slide-1" data-slide="1">
 
 							<div class="inner-wrap-container formatted">
 								<h3>Full Service Caterers</h3>
@@ -170,7 +170,7 @@ Template Name: Catering
 
 							<div class="clear"></div>
 
-						</div>
+						</!--div>-->
 
 					</div>
 
