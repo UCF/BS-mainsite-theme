@@ -1,0 +1,53 @@
+{
+  "name": "bs-mainsite-theme",
+  "version": "1.0.0",
+  "description": "[![forthebadge](https://forthebadge.com/images/badges/built-with-wordpress.svg)](http://forthebadge.com) \r [![forthebadge](https://forthebadge.com/images/badges/contains-cat-gifs.svg)](http://forthebadge.com)\r [![forthebadge](https://forthebadge.com/images/badges/uses-css.svg)](http://forthebadge.com)",
+  "main": "gruntfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/UCF/BS-mainsite-theme.git"
+  },
+  "keywords": [
+    "officeplus",
+    "UCF",
+    "grunt",
+    "business",
+    "services",
+    "business",
+    "services",
+    "ucf",
+    "officeplus",
+    "office",
+    "plus",
+    "mike",
+    "setzer",
+    "less"
+  ],
+  "author": {
+    "name": "Mike Setzer",
+    "url": "https://github.com/mikesetzer/"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/UCF/BS-mainsite-theme/issues"
+  },
+  "homepage": "https://github.com/UCF/BS-mainsite-theme#readme",
+  "dependencies": {
+    "grunt": "^1.0.4",
+    "grunt-contrib-less": "^2.0.0",
+    "grunt-contrib-watch": "^1.1.0",
+    "jit-grunt": "^0.10.0",
+    "jshint": "^2.9.5"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.26.13",
+    "colors": "^1.1.2",
+    "del": "^3.0.0",
+    "imagemin-pngquant": "^8.0.0",
+    "run-sequence": "^2.1.0",
+    "vinyl-paths": "^2.0.0"
+  }
+}
