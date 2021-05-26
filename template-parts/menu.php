@@ -106,12 +106,12 @@
 					<div class="top-wrap">
 
 						<?php if ( get_field( 'first_line' ) ) { ?>
-							<h1><?php the_field( 'first_line', 6 ); ?></h1>
+							<h1><?php the_field( 'first_line'); ?></h1>
 							<?php /* spry dev id <h1><?php the_field( 'first_line', 2 ); ?></h1> */ ?>
 						<?php } ?>
 
 						<?php if ( get_field( 'second_line' ) ) { ?>
-							<h1><span><?php the_field( 'second_line', 6 ); ?></span></h1>
+							<h1><span><?php the_field( 'second_line'); ?></span></h1>
 							<?php /* spry dev id <h1><span><?php the_field( 'second_line', 2 ); ?></span></h1> */ ?>
 						<?php } ?>
 
