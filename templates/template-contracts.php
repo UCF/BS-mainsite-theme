@@ -18,29 +18,32 @@ Template Name: Contracts
 
                     <div class="top-wrap formatted">
 
-
                         <?php if( have_rows('contracts_repeater') ): ?>
 
-                            <div class="contracts-repeater inner-wrap-container">
+                            <div class="clear"></div>
 
-                                <?php while( have_rows('contracts_repeater') ): the_row();
+                            <div class="content-wrap active">
+                                <div class="contracts-repeater inner-wrap-container">
 
-                                    $image = get_sub_field('contract_image');
-                                    ?>
-                                    <div class="repeater-item imager-container-formatted">
-                                        <div class="image-side pull-left">
-                                            <?php echo wp_get_attachment_image( $image, 'full' ); ?>
+                                    <?php while( have_rows('contracts_repeater') ): the_row();
+
+                                        $image = get_sub_field('contract_image');
+                                        ?>
+                                        <div class="repeater-item imager-container-formatted">
+                                            <div class="image-side pull-left">
+                                                <?php echo wp_get_attachment_image( $image, 'full' ); ?>
+                                            </div>
+                                            <div class="text-side pull-right">
+                                                <h2><?php the_sub_field('contract_title'); ?></h2>
+                                                <p class="contract-tagline"><?php the_sub_field('contract_tagline'); ?></p>
+                                                <p class="contract-body"><?php the_sub_field('contract_body_text'); ?></p>
+                                                <p class="contract-links"><?php the_sub_field('contract_links'); ?></p>
+                                            </div>
                                         </div>
-                                        <div class="text-side pull-right">
-                                            <h2><?php the_sub_field('contract_title'); ?></h2>
-                                            <p class="contract-tagline"><?php the_sub_field('contract_tagline'); ?></p>
-                                            <p class="contract-body"><?php the_sub_field('contract_body_text'); ?></p>
-                                            <p class="contract-links"><?php the_sub_field('contract_links'); ?></p>
-                                        </div>
-                                    </div>
 
-                                <?php endwhile; ?>
+                                    <?php endwhile; ?>
 
+                                </div>
                             </div>
 
                         <?php endif; ?>
