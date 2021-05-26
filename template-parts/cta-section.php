@@ -1,4 +1,4 @@
-<?php if ( is_page_template( 'templates/template-catering.php' ) ) { ?>
+<?php if ( is_page_template( 'templates/template-catering.php' ) || is_page_template( 'templates/template-contracts.php' ) ) { ?>
 	<section class="cta-section dark-green text-center formatted">
 <?php } else { ?>
 	<section class="cta-section text-center formatted">
