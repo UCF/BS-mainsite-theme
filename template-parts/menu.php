@@ -131,7 +131,7 @@
 
 				</div>
 
-				<div class="fence-border<?php if ( is_page_template( 'templates/template-catering.php' ) ) { ?> dark-green<?php } ?>"></div>
+				<div class="fence-border<?php if ( is_page_template( 'templates/template-catering.php' ) || is_page_template( 'templates/template-contracts.php' ) ) { ?> dark-green<?php } ?>"></div>
 
 			</section>
 
