@@ -710,6 +710,7 @@ a {
 }
 
 #contracts-container {
+	margin-top: 0px;
 
 	.repeater-item:after {
 		position: absolute;
@@ -720,6 +721,10 @@ a {
 		background: rgba(138,138,138,0.3);
 		bottom: 1px;
 		z-index: 1;
+	}
+
+	.repeater-item:first-child:after {
+		height: 0px;
 	}
 
 	.repeater-item {
