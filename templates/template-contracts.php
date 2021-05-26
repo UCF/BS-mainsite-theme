@@ -10,7 +10,7 @@ Template Name: Contracts
 
         <?php get_template_part( 'template-parts/cta-section' ); ?>
 
-        <section class="slider- has-padding-3">
+        <section class="slider-section has-padding">
 
             <div class="container">
 
