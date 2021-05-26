@@ -20,7 +20,6 @@ Template Name: Contracts
 
                         <?php if( have_rows('contracts_repeater') ): ?>
 
-                            <div class="clear"></div>
 
                             <div class="content-wrap active">
                                 <div class="contracts-repeater inner-wrap-container">
