@@ -19,11 +19,11 @@ Template Name: Contracts
                     <div class="top-wrap formatted">
 
 
-                        <?php if( have_rows('slides') ): ?>
+                        <?php if( have_rows('contracts_repeater') ): ?>
 
                             <div class="contracts-repeater inner-wrap-container">
 
-                                <?php while( have_rows('slides') ): the_row();
+                                <?php while( have_rows('contracts_repeater') ): the_row();
 
                                     $image = get_sub_field('contract_image');
                                     ?>
