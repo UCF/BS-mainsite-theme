@@ -27,12 +27,12 @@ Template Name: Contracts
                                     $image = get_sub_field('contract_image');
                                     ?>
                                     <div class="repeater-item imager-container-formatted">
-                                        <div class="image-side pull-left">
+                                        <div class="image-side pull-right">
                                             <?php echo wp_get_attachment_image( $image, 'full' ); ?>
                                         </div>
 
-                                        <div class="text-side pull-right">
-                                            <h2><?php the_sub_field('contract_title'); ?></h2>
+                                        <div class="text-side pull-left">
+                                            <h3><?php the_sub_field('contract_title'); ?></h3>
                                             <p class="contract-tagline"><?php the_sub_field('contract_tagline'); ?></p>
                                             <p class="contract-body"><?php the_sub_field('contract_body_text'); ?></p>
                                             <p class="contract-links"><?php the_sub_field('contract_links'); ?></p>
@@ -44,7 +44,7 @@ Template Name: Contracts
                             </div>
 
                         <?php endif; ?>
-                        
+
                     </div>
 
                 </div>
