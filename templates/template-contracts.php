@@ -33,8 +33,8 @@ Template Name: Contracts
 
                                         <div class="text-side pull-left">
                                             <h3><?php the_sub_field('contract_title'); ?></h3>
-                                            <p class="contract-tagline"><?php the_sub_field('contract_tagline'); ?></p>
-                                            <p class="contract-body"><?php the_sub_field('contract_body_text'); ?></p>
+                                            <div class="contract-tagline"><?php the_sub_field('contract_tagline'); ?></div>
+                                            <div class="contract-body"><?php the_sub_field('contract_body_text'); ?></div>
                                             <div class="contract-links"><?php the_sub_field('contract_links'); ?></div>
                                         </div>
                                     </div>
