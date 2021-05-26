@@ -711,6 +711,17 @@ a {
 
 #contracts-container {
 
+	.repeater-item:after {
+		position: absolute;
+		content: '';
+		display: block;
+		height: 1px;
+		width: 100%;
+		background: rgba(138,138,138,0.3);
+		bottom: 1px;
+		z-index: 1;
+	}
+
 	.repeater-item {
 		float: left;
 		margin-bottom: 30px;
@@ -758,8 +769,10 @@ a {
 			}
 
 			.contract-links {
-				margin-top: 20px;
-				line-height: 1.6em;
+				ul {
+					margin-top: 20px;
+					line-height: 1.6em;
+				}
 			}
 
 		}
