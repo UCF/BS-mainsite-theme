@@ -712,20 +712,21 @@ a {
 #contracts-container {
 	margin-top: 20px;
 
-	.repeater-item:after {
-		content: '';
-		display: block;
-		height: 1px;
-		width: 100%;
-		background: rgba(138,138,138,0.3);
-		bottom: 1px;
-		z-index: 1;
-	}
+	@media only screen and (min-width: 960px) {
+		.repeater-item:after {
+			content: '';
+			display: block;
+			height: 1px;
+			width: 100%;
+			background: rgba(138, 138, 138, 0.3);
+			bottom: 1px;
+			z-index: 1;
+		}
 
-	.repeater-item:first-child:after {
-		height: 0px;
+		.repeater-item:first-child:after {
+			height: 0px;
+		}
 	}
-
 	.repeater-item {
 		float: left;
 		margin-bottom: 30px;
