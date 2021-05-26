@@ -8,47 +8,41 @@ Template Name: Contracts
 
     <main id="content" class="contracts">
 
-        <section class="cta-section dark-green text-center formatted">
-
-            <div class="background-overlay" style="background: url(<?php bloginfo('template_directory'); ?>/library/images/ctabg1.jpg); background-position: center; background-size: cover;"></div>
-
-            <div class="overlay"></div>
-
-            <div class="inner-wrap larger">
-
-                <?php if ( get_field( 'cta_title' ) ) { ?>
-                    <h1><?php the_field( 'cta_title' ); ?></h1>
-                <?php } ?>
-
-                <?php if ( get_field( 'cta_description' ) ) { ?>
-                    <?php the_field( 'cta_description' ); ?>
-                <?php } ?>
-
-                <?php if( have_rows( 'downloads' ) ): ?>
-
-                    <div class="download-link-wrap">
-
-                        <?php while ( have_rows( 'downloads' ) ) : the_row(); ?>
-
-                            <a href="<?php the_sub_field('link_url'); ?>" class="white-btn btn special-dl" target="_blank"><?php the_sub_field('link_text'); ?></a>
-
-                        <?php endwhile; ?>
-
-                        <div class="clear"></div>
-
-                    </div>
-
-                <?php endif; ?>
-
-            </div>
-
-        </section>
+        <?php get_template_part( 'template-parts/cta-section' ); ?>
 
         <section class="slider-section">
 
             <div class="container">
 
-                <div class="inner-wrap-container formatted">
+                <div class="inner-wrap-container">
+
+                    <div class="top-wrap formatted">
+
+
+                        <?php if( have_rows('slides') ): ?>
+
+                            <div class="contracts-repeater">
+
+                                <?php while( have_rows('slides') ): the_row();
+
+                                    $image = get_sub_field('contract_image');
+                                    ?>
+                                    <div class="repeater-item">
+                                        <?php echo wp_get_attachment_image( $image, 'full' ); ?>
+                                        <h2><?php the_sub_field('contract_title'); ?></h2>
+                                        <p class="contract-tagline"><?php the_sub_field('contract_tagline'); ?></p>
+                                        <p class="contract-body"><?php the_sub_field('contract_body_text'); ?></p>
+                                        <p class="contract-links"><?php the_sub_field('contract_links'); ?></p>
+                                    </div>
+
+                                <?php endwhile; ?>
+
+                            </div>
+
+                        <?php endif; ?>
+
+
+                    </div>
 
 
 
