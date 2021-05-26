@@ -10,7 +10,7 @@ Template Name: Contracts
 
         <?php get_template_part( 'template-parts/cta-section' ); ?>
 
-        <section class="slider-section">
+        <section class="slider- has-padding-3">
 
             <div class="container">
 
@@ -21,18 +21,22 @@ Template Name: Contracts
 
                         <?php if( have_rows('slides') ): ?>
 
-                            <div class="contracts-repeater">
+                            <div class="contracts-repeater inner-wrap-container">
 
                                 <?php while( have_rows('slides') ): the_row();
 
                                     $image = get_sub_field('contract_image');
                                     ?>
-                                    <div class="repeater-item">
-                                        <?php echo wp_get_attachment_image( $image, 'full' ); ?>
-                                        <h2><?php the_sub_field('contract_title'); ?></h2>
-                                        <p class="contract-tagline"><?php the_sub_field('contract_tagline'); ?></p>
-                                        <p class="contract-body"><?php the_sub_field('contract_body_text'); ?></p>
-                                        <p class="contract-links"><?php the_sub_field('contract_links'); ?></p>
+                                    <div class="repeater-item imager-container-formatted">
+                                        <div class="image-side pull-left">
+                                            <?php echo wp_get_attachment_image( $image, 'full' ); ?>
+                                        </div>
+                                        <div class="text-side pull-right">
+                                            <h2><?php the_sub_field('contract_title'); ?></h2>
+                                            <p class="contract-tagline"><?php the_sub_field('contract_tagline'); ?></p>
+                                            <p class="contract-body"><?php the_sub_field('contract_body_text'); ?></p>
+                                            <p class="contract-links"><?php the_sub_field('contract_links'); ?></p>
+                                        </div>
                                     </div>
 
                                 <?php endwhile; ?>
