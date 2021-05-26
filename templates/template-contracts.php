@@ -6,7 +6,7 @@ Template Name: Contracts
 
 <div class="container">
 
-    <main id="content" class="contracts no-padding-top">
+    <main id="content" class="contracts">
 
         <section class="cta-section dark-green text-center formatted">
 
@@ -44,7 +44,7 @@ Template Name: Contracts
 
         </section>
 
-        <section class="slider-section has padding-2">
+        <section class="slider-section">
 
             <div class="container">
 

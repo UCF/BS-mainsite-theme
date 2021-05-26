@@ -6,7 +6,7 @@ Template Name: Solicitation
 
 	<div class="container">
 
-		<main id="content" class="solicitaion">
+		<main id="content" class="solicitation">
 
 			<section class="slider-section">
 
