@@ -41,6 +41,8 @@ Template Name: Contracts
 
                                 <?php endwhile; ?>
 
+                                <div class="clear"></div>
+
                             </div>
 
                         <?php endif; ?>
