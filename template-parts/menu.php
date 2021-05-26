@@ -97,7 +97,7 @@
 
 			</section>
 
-		<?php } else if ( is_page_template( 'templates/template-catering.php' ) || is_page_template( 'templates/template-home.php' ) || is_page_template( 'templates/template-solicitation.php' ) || is_page_template( 'templates/template-licensing.php' ) ) { ?>
+		<?php } else if ( is_page_template( 'templates/template-catering.php' ) || is_page_template( 'templates/template-contracts.php' ) || is_page_template( 'templates/template-home.php' ) || is_page_template( 'templates/template-solicitation.php' ) || is_page_template( 'templates/template-licensing.php' ) ) { ?>
 
 			<section class="header-box light-blue-bg<?php if ( !is_page_template( 'templates/template-home.php' ) ) { ?> alternate-1<?php }?>">
 
