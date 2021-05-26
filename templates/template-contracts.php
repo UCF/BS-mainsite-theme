@@ -20,7 +20,7 @@ Template Name: Contracts
 
                         <?php if( have_rows('contracts_repeater') ): ?>
 
-                            <div class="image-container formatted contracts-container">
+                            <div id="contracts-container" class="image-container formatted">
 
                                 <?php while( have_rows('contracts_repeater') ): the_row();
 
