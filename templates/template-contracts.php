@@ -10,7 +10,7 @@ Template Name: Contracts
 
         <?php get_template_part( 'template-parts/cta-section' ); ?>
 
-        <section class="slider-section has-padding">
+        <section class="slider-section">
 
             <div class="container">
 
@@ -20,7 +20,7 @@ Template Name: Contracts
 
                         <?php if( have_rows('contracts_repeater') ): ?>
 
-                            <div class="contracts-repeater inner-wrap-container">
+                            <div class="image-container formatted">
 
                                 <?php while( have_rows('contracts_repeater') ): the_row();
 
