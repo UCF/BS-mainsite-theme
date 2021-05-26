@@ -6,7 +6,7 @@ Template Name: Contracts
 
 <div class="container">
 
-    <main id="content" class="contracts">
+    <main id="content" class="contracts no-padding-top">
 
         <?php get_template_part( 'template-parts/cta-section' ); ?>
 
