@@ -20,13 +20,13 @@ Template Name: Contracts
 
                         <?php if( have_rows('contracts_repeater') ): ?>
 
-                            <div class="image-container formatted">
+                            <div class="image-container formatted contracts-container">
 
                                 <?php while( have_rows('contracts_repeater') ): the_row();
 
                                     $image = get_sub_field('contract_image');
                                     ?>
-                                    <div class="repeater-item imager-container-formatted">
+                                    <div class="repeater-item image-container-formatted">
                                         <div class="image-side pull-right">
                                             <?php echo wp_get_attachment_image( $image, 'full' ); ?>
                                         </div>
