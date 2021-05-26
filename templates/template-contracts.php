@@ -35,7 +35,7 @@ Template Name: Contracts
                                             <h3><?php the_sub_field('contract_title'); ?></h3>
                                             <p class="contract-tagline"><?php the_sub_field('contract_tagline'); ?></p>
                                             <p class="contract-body"><?php the_sub_field('contract_body_text'); ?></p>
-                                            <p class="contract-links"><?php the_sub_field('contract_links'); ?></p>
+                                            <div class="contract-links"><?php the_sub_field('contract_links'); ?></div>
                                         </div>
                                     </div>
 
