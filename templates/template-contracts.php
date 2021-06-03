@@ -27,10 +27,11 @@ Template Name: Contracts
                                     $image = get_sub_field('contract_image');
                                     ?>
                                     <div class="repeater-item image-container-formatted">
-                                        <div class="image-side pull-right">
-                                            <?php echo wp_get_attachment_image( $image, 'full' ); ?>
+                                        <div class="repeater-image-container">
+                                            <div class="image-side pull-right">
+                                                <?php echo wp_get_attachment_image( $image, 'full' ); ?>
+                                            </div>
                                         </div>
-
                                         <div class="text-side pull-left">
                                             <h3><?php the_sub_field('contract_title'); ?></h3>
                                             <div class="contract-tagline"><?php the_sub_field('contract_tagline'); ?></div>
