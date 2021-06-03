@@ -731,16 +731,25 @@ a {
 		float: left;
 		margin-bottom: 30px;
 
-		.image-side {
-			margin-top: 102px;
-			width: 100%;
-			max-width: 400px;
+		.repeater-image-container{
+			height: 300px;
+			position: relative;
+			float: right;
 
-			img {
-				float: right;
-				height: 300px;
-				width: 400px;
+			.image-side {
+				width: 100%;
+				max-width: 400px;
+				position: absolute;
+				top: 50%;
+				-ms-transform: translateY(-50%);
+				transform: translateY(-50%);
 
+				img {
+					float: right;
+					height: 300px;
+					width: 400px;
+
+				}
 			}
 		}
 
