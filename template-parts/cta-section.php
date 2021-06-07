@@ -8,7 +8,7 @@
 
 	<div class="overlay"></div>
 
-	<?php if ( is_page_template( 'templates/template-contact.php' ) || is_page_template( 'templates/template-catering.php' ) ) { ?>
+	<?php if ( is_page_template( 'templates/template-contact.php' ) || is_page_template( 'templates/template-catering.php' ) || is_page_template( 'templates/template-contracts.php' ) ) { ?>
 		<div class="inner-wrap larger">
 	<?php } else if ( is_page_template( 'templates/template-home.php' ) ) { ?>
 		<div class="inner-wrap">
