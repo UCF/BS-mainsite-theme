@@ -67,6 +67,12 @@ Template Name: Contact
 							</li>
 							<?php endif; ?>
 
+                            <?php if( get_field( 'shuttles_description' ) ): ?>
+                                <li class="pull-left">
+                                    <a href="#" data-name="shuttles" data-wrap="slide-8" data-slide="8">Shuttle Advertising</a>
+                                </li>
+                            <?php endif; ?>
+
 						</ul>
 
 						<div class="clear"></div>
@@ -80,6 +86,7 @@ Template Name: Contact
 							get_template_part( 'template-parts/contact-content-wraps/donation' );
 							get_template_part( 'template-parts/contact-content-wraps/students' );
 							get_template_part( 'template-parts/contact-content-wraps/coke-donation' );
+							get_template_part( 'template-parts/contact-content-wraps/shuttles' );
 						?>
 
 					</div>
