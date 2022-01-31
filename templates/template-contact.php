@@ -68,7 +68,7 @@ Template Name: Contact
 							<?php endif; ?>
 
                             <?php if( get_field( 'shuttles_description' ) ): ?>
-                                <li class="pull-left">
+                                <li id="shuttles" class="pull-left">
                                     <a href="#" data-name="shuttles" data-wrap="slide-8" data-slide="8">Shuttle Advertising</a>
                                 </li>
                             <?php endif; ?>
