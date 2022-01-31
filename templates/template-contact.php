@@ -31,29 +31,41 @@ Template Name: Contact
 
 						<ul class="slider-line">
 
+                            <?php if( get_field( 'dining_membership_cancellation_description' ) ): ?>
 							<li class="pull-left active">
 								<a href="#" data-wrap="slide-0" data-slide="0">Dining Membership Cancellation</a>
 							</li>
+                            <?php endif; ?>
 
+							<?php if( get_field( 'vending_issues_description' ) ): ?>
 							<li class="pull-left">
 								<a href="#" data-wrap="slide-1" data-slide="1">Vending Issues</a>
 							</li>
+                            <?php endif; ?>
 
+							<?php if( get_field( 'donation_description' ) ): ?>
 							<li class="pull-left">
 								<a href="#" data-wrap="slide-2" data-slide="2">Donation Requests</a>
 							</li>
+							<?php endif; ?>
 
+							<?php if( get_field( 'student_form_description' ) ): ?>
 							<li class="pull-left">
-								<a href="#" data-wrap="slide-4" data-slide="4">Student Union Work Order</a>
-							</li>
+							    <a href="#" data-wrap="slide-4" data-slide="4">Student Union Work Order</a>
+                            </li>
+                            <?php endif; ?>
 
+                            <?php if( get_field( 'coke_donation_description' ) ): ?>
 							<li class="pull-left">
 								<a href="#" data-wrap="slide-6" data-slide="6">Coke Donation</a>
 							</li>
+							<?php endif; ?>
 
-							<li class="pull-left">
+                            <?php if( get_field( 'contact_form_description' ) ): ?>
+                            <li class="pull-left">
 								<a href="#" data-wrap="slide-7" data-slide="7">General</a>
 							</li>
+							<?php endif; ?>
 
 						</ul>
 
