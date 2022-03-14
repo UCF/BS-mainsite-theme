@@ -1,5 +1,5 @@
 jQuery(document).ready( function($) {
-	
+
 	/* Menu Trigger Wrap */
 	$( '#menu-trigger-wrap' ).on( 'click', function(e) {
 		e.preventDefault();
@@ -49,6 +49,12 @@ jQuery(document).ready( function($) {
 		} );
 	}
 
+	/*
+	 *
+	 * CONTACT PAGE PAGINATION HERE
+	 * 
+	 */
+
 	/* Switch Wrap By Pagination  */
 	if ( $( '.pagination' ).length ) {
 		$( '.pagination .left-page, .pagination .right-page' ).on( 'click', function( e ) {
@@ -81,7 +87,7 @@ jQuery(document).ready( function($) {
 			if ( $( '.location-list' ).length ) {
 				var t = 0;
 				var t_elem;
-				
+
 				$( '.location-list li' ).css( { 'height' : '' } );
 				$( '.location-list li' ).each( function() {
 				    $this = $(this);
@@ -175,5 +181,5 @@ jQuery(document).ready( function($) {
 	        }
 	    }
 	};
-	
+
 } );
