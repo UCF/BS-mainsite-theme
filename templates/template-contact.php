@@ -72,6 +72,13 @@ Template Name: Contact
                                 </li>
                             <?php endif; ?>
 
+                            <?php if( get_field( 'knightcash_description' ) ): ?>
+                                <li class="pull-left">
+                                    <a href="#" id="shuttles" data-name="shuttles" data-wrap="slide-9"
+                                       data-slide="9">Knight Cash Refunds</a>
+                                </li>
+                            <?php endif; ?>
+
 						</ul>
 
 						<div class="clear"></div>
