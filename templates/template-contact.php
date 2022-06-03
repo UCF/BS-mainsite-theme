@@ -93,6 +93,7 @@ Template Name: Contact
 							get_template_part( 'template-parts/contact-content-wraps/students' );
 							get_template_part( 'template-parts/contact-content-wraps/coke-donation' );
 							get_template_part( 'template-parts/contact-content-wraps/shuttles' );
+							get_template_part( 'template-parts/contact-content-wraps/knightcash')
 						?>
 
 					</div>
