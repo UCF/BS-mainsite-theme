@@ -83,7 +83,7 @@ Template Name: Contact
 
 						<div class="clear"></div>
 
-						<div id="slideCount" data-total-slides="7"></div>
+						<div id="slideCount" data-total-slides="8"></div>
 
 						<?php
 							get_template_part( 'template-parts/contact-content-wraps/dining-membership' );
