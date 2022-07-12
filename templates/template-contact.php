@@ -32,7 +32,7 @@ Template Name: Contact
 
                             <?php if( get_field( 'dining_membership_cancellation_description' ) ): ?>
 							<li class="pull-left active">
-								<a href="#" data-wrap="slide-0" data-slide="0">Dining Membership Cancellation</a>
+								<a href="#" data-wrap="slide-0" data-slide="0">Meal Plan Cancelation</a>
 							</li>
                             <?php endif; ?>
 
