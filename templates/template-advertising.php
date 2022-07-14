@@ -22,7 +22,7 @@ Template Name: Advertising
 
 						<ul class="slider-line advertising-slider full-border">
 
-							<li class="pull-left">
+							<li class="pull-left active">
 								<a href="#" data-wrap="slide-0" data-slide="0"><?php the_field ('slide_1_title' ); ?></a>
 							</li>
 
