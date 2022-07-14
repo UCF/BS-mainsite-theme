@@ -1,11 +1,11 @@
 <div class="content-wrap active" data-wrap="slide-1">
 	
-	<?php if ( get_field( 'contact_form_description' ) ) { ?><!--TO DO ADD FIELD-->
+	<?php if ( get_field( 'app_ad_description' ) ) { ?>
 
 		<div class="info-block formatted2">
 			
 			<div class="top-wrap">
-				<?php the_field( 'contact_form_description' ); ?><!--TO DO - ADD FIELDS-->
+				<?php the_field( 'app_ad_description' ); ?>
 			</div>	
 
 		</div>
@@ -13,7 +13,7 @@
 	<?php } ?>
 
 	<div class="form-wrap">
-		<?php gravity_form( 1, FALSE, FALSE, FALSE, NULL, TRUE); ?><!--TO DO - Update Form -->
+		<?php the_field ( 'app_ad' ); ?>
 	</div>
 
 </div>
