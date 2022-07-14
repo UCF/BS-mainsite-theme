@@ -20,7 +20,7 @@ Template Name: Advertising
 							<div class="clear"></div>
 						</div>
 
-						<ul class="slider-line full-border">
+						<ul class="slider-line advertising-slider full-border">
 
 							<li class="pull-left">
 								<a href="#" data-wrap="slide-0" data-slide="0">Shuttle Ad</a>
@@ -34,7 +34,7 @@ Template Name: Advertising
 
 						<div class="clear"></div>
 
-						<div id="slideCount" data-total-slides="2"></div>
+						<div id="slideCount" data-total-slides="1"></div>
 
                         <!--TO DO -->
 						<?php

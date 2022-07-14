@@ -12,7 +12,7 @@
 
 	<?php } ?>
 
-	<div class="form-wrap">
+	<div class="form-wrap  info-block formatted2">
 		<?php the_field( 'shuttle_ad' ); ?>
 	</div>
 
