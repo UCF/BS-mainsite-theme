@@ -23,11 +23,11 @@ Template Name: Advertising
 						<ul class="slider-line advertising-slider full-border">
 
 							<li class="pull-left">
-								<a href="#" data-wrap="slide-0" data-slide="0">Shuttle Ad</a>
+								<a href="#" data-wrap="slide-0" data-slide="0"><?php the_field ('slide_1_title' ); ?></a>
 							</li>
 
 							<li class="pull-left">
-								<a href="#" data-wrap="slide-1" data-slide="1">UCF App Ad</a>
+								<a href="#" data-wrap="slide-1" data-slide="1"><?php the_field ('slide_2_title' ); ?></a>
 							</li>
 
 						</ul>
