@@ -14,7 +14,7 @@ Template Name: Advertising
 
 					<div class="inner-wrap-container">
 
-						<div class="pagination catering slider-line-pagers">
+						<div class="pagination slider-line-pagers">
 							<a href="#" class="left-page pull-left"></a>
 							<a href="#" class="right-page pull-left"></a>
 							<div class="clear"></div>
