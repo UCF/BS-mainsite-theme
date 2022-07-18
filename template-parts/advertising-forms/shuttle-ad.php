@@ -1,4 +1,4 @@
-<div class="content-wrap active" data-wrap="slide-1">
+<div class="content-wrap active" data-wrap="slide-0">
 	
 	<?php if ( get_field( 'shuttle_ad_description' ) ) { ?>
 

@@ -1,4 +1,4 @@
-<div class="content-wrap" data-wrap="slide-2">
+<div class="content-wrap" data-wrap="slide-1">
 	
 	<?php if ( get_field( 'app_ad_description' ) ) { ?>
 

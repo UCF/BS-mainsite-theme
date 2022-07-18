@@ -23,11 +23,11 @@ Template Name: Advertising
 						<ul class="slider-line advertising-slider full-border">
 
 							<li class="pull-left active">
-								<a href="#" data-wrap="slide-1" data-slide="1"><?php the_field ('slide_1_title' ); ?></a>
+								<a href="#" data-wrap="slide-0" data-slide="0"><?php the_field ('slide_1_title' ); ?></a>
 							</li>
 
 							<li class="pull-left">
-								<a href="#" data-wrap="slide-2" data-slide="2"><?php the_field ('slide_2_title' ); ?></a>
+								<a href="#" data-wrap="slide-1" data-slide="1"><?php the_field ('slide_2_title' ); ?></a>
 							</li>
 
 						</ul>
@@ -38,8 +38,8 @@ Template Name: Advertising
 
                         <!--TO DO -->
 						<?php
-							get_template_part( 'template-parts/advertising-forms/app-ad' ); 
 							get_template_part( 'template-parts/advertising-forms/shuttle-ad' );
+							get_template_part( 'template-parts/advertising-forms/app-ad' ); 
 						?>
 
 					</div>
