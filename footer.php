@@ -11,7 +11,6 @@
 
 			<div class="copy-text">
 				<p>&copy; <?php echo date('Y'); ?> UCF Business Services, a unit of the Division of Administration and Finance</p>
-				<p>Phone: <a href="tel:4078232624">(407) 823-2624</a> | Fax: <a href="tel:4078820175">(407) 882-0175</a> | 12479 Research Pkwy Ste 600, Orlando, FL 32826</p>
 			</div>
 			
 		</div>
