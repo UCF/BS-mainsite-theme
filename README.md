@@ -1,7 +1,6 @@
 # Business Services WordPress Theme
 
 WordPress theme for businessservices.ucf.edu, created by Spry, maintained by Business Services.
-This theme is built around Advanced Custom Fields.
 
 ## Deployment
 
