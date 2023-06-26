@@ -90,13 +90,17 @@
 
 				</div>
 
-				<?php if ( is_page_template( 'templates/template-home.php' ) ) { ?>
-					<div class="header-buttons">
-						<a href="<?php the_field( 'left_button_link', $post->ID ) ?>" target="_blank" class="white-btn btn chart pull-left">VIEW ORGANIZATION CHART</a>
-						<a href="<?php the_field( 'right_button_link', $post->ID ) ?>" target="_blank" class="white-btn btn report pull-right">VIEW ANNUAL REPORT</a>
-						<div class="clear"></div>
-					</div>
-				<?php } ?>
+                <?php if ( is_page_template( 'templates/template-home.php' ) ) { ?>
+                    <div class="header-buttons">
+                        <?php if (get_field( 'left_button_link', $post->ID )): ?>
+                            <a href="<?php the_field( 'left_button_link', $post->ID ) ?>" target="_blank" class="white-btn btn chart pull-left">VIEW ORGANIZATION CHART</a>
+                        <?php endif; ?>
+                        <?php if (get_field( 'right_button_link', $post->ID )): ?>
+                            <a href="<?php the_field( 'right_button_link', $post->ID ) ?>" target="_blank" class="white-btn btn report pull-right">VIEW ANNUAL REPORT</a>
+                        <?php endif; ?>
+                        <div class="clear"></div>
+                    </div>
+                <?php } ?>
 
 			</div>
 
@@ -105,6 +109,6 @@
 		</section>
 
 	</div>
-	
+
 
 </header>
